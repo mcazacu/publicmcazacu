@@ -18,7 +18,7 @@ steps:
 - name: publish
   image: plugins/docker
   settings:
-    repo: mcazacu/publicmcazacu
+    repo: azuress/publicmcazacu
     username:
       from_secret: dockerhub_user
     password:
